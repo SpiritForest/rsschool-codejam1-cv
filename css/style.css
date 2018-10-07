@@ -1,4 +1,49 @@
+* {
+	margin: 0;
+}
+
 body {
 	width: 1024px;
 	margin: 0 auto;
+	position: relative;
+	height: 100%;
+
+}
+
+h1	{
+	text-align: center;
+	background: #6191bf; /* Fallback background color for non supported browsers */ 
+	background-image: -moz-radial-gradient(center 45deg,circle cover, #cde6f9, #6191bf);
+	background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%,1000, from(#cde6f9), to(#6191bf));
+}
+
+section {
+	padding:  30px;
+	-webkit-box-shadow: inset 3px 3px 41px -1px rgba(0,0,0,0.47);
+	-moz-box-shadow: inset 3px 3px 41px -1px rgba(0,0,0,0.47);
+	box-shadow: inset 3px 3px 41px -1px rgba(0,0,0,0.47);
+	background: #cde6f9
+}
+
+p, ul, .social {
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 1.5em;
+	line-height: 1.5;
+}
+
+.contacts {
+	display: flex;
+	justify-content: space-around;
+}
+
+footer {
+	height: 30px;
+	text-align: center;
+	background: #6191bf; /* Fallback background color for non supported browsers */ 
+	background-image: -moz-radial-gradient(center 45deg,circle cover, #cde6f9, #6191bf);
+	background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%,1000, from(#cde6f9), to(#6191bf));
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
 }
