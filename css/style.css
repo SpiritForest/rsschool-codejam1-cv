@@ -2,7 +2,7 @@
 	margin: 0;
 }
 
-body {
+html, body {
 	width: 1024px;
 	margin: 0 auto;
 	position: relative;
@@ -46,8 +46,13 @@ footer {
 	background: #6191bf; /* Fallback background color for non supported browsers */ 
 	background-image: -moz-radial-gradient(center 45deg,circle cover, #cde6f9, #6191bf);
 	background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%,1000, from(#cde6f9), to(#6191bf));
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 100%;
+}
+
+.wrapper {
+  display: table;
+  height: 100%;
+}
+.content {
+  display: table-row;
+  height: 100%;
 }
