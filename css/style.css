@@ -17,12 +17,16 @@ h1	{
 	background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%,1000, from(#cde6f9), to(#6191bf));
 }
 
+img {
+	border-radius: 180px;
+}
+
 section {
 	padding:  30px;
-	-webkit-box-shadow: inset 3px 3px 41px -1px rgba(0,0,0,0.47);
-	-moz-box-shadow: inset 3px 3px 41px -1px rgba(0,0,0,0.47);
-	box-shadow: inset 3px 3px 41px -1px rgba(0,0,0,0.47);
-	background: #cde6f9
+	-webkit-box-shadow: inset 3px 3px 41px -1px rgba(0, 0, 0, 0.47);
+	-moz-box-shadow: inset 3px 3px 41px -1px rgba(0, 0, 0, 0.47);
+	box-shadow: inset 3px 3px 41px -1px rgba(0, 0, 0, 0.47);
+	background: rgb(180, 180, 180);
 }
 
 p, ul, .social {
